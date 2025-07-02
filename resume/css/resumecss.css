@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+ {outline: 1px solid red;}
+        html {box-sizing: border-box;}
+        *, *:before, *:after {box-sizing: inherit;}
+        body {margin: 0; padding:0; background-color: #333;}
+        
+        /*Structure*/
+        
+        #wrapper {max-width: 792px; margin:0 auto; }
+        #contact {width:40%; background-color: #ccc; padding: 1rem;  border-radius: 2rem 0 0 2rem;}
+        #general {width: 60%; background-color: #fff; padding: 1rem;  border-radius: 0 2rem 2rem 0;}
+        .flex-box{
+            display: flex;
+        }
+        
+        
+        
+        /*typography*/
+        
+        /*<weight>: Use a value from 100 to 900
+        <uniquifier>: Use a unique and descriptive class name */
+        html {
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 300;
+            font-style: normal;
+        }
+        h1 {
+          font-family: "Michroma", sans-serif;
+          font-weight: 400;
+          font-style: normal;
+          margin-bottom:0;
+        }
+        h2, h3 {font-weight: 500;}
+        
+        #general h3 {padding-bottom:3px; border-bottom:1px solid #666;}
+        #general p, #general h4 {margin:0;}
+        #general h4 {font-weight:500;}
+        
+        #contact p {padding: 0; margin:0 0 3px 0; font-size: .8rem;}
+        
+        #skills ul {list-style-type: none; flex-wrap:wrap; gap:9px; padding:0;}
+        #skills li {background-color: #999; padding: 6px; color:white; font-weight:500;}
+
+        /*Table*/
+        th, td {text-align: center;}
+        th:nth-child(1), td:nth-child(1) {width:15%; text-align: left;}        
+        th:nth-child(2) {width:10%;}
+        th:nth-child(3) {width:10%;}
+        th:nth-child(4) {width:10%;}
+
+			
